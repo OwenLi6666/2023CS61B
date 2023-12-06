@@ -171,10 +171,9 @@ public class Model {
 
         checkGameOver();
     }*/
+    //Above is the original tilt, only testUtils has not passed so far.
     public void tilt(Side side) {
-        boolean changed;
-        changed = false;
-
+        boolean changed= false;
         // TODO: Fill in this function.
         // set the viewing perspective to make the operations more convenient
         board.setViewingPerspective(side);
