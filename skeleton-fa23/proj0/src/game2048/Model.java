@@ -172,8 +172,8 @@ public class Model {
         checkGameOver();
     }*/
     public void tilt(Side side) {
-        boolean changed;
-        changed = false;
+        boolean changed = false;
+
 
         // TODO: Fill in this function.
         // set the viewing perspective to make the operations more convenient
